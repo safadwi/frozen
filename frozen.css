@@ -1,0 +1,105 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* BODY */
+body {
+    background: #f2f7ff;
+    color: #2c3e50;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #3a6fb3;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    opacity: 0.7;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: #d7e8ff;
+    color: #1f3f68;
+    border-bottom: 1px solid #c2d7f3;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* SECTION */
+.section {
+    text-align: center;
+    padding: 55px 25px;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: #2a4d7c;
+    font-size: 26px;
+}
+
+.section p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+/* POSTER */
+.poster-card {
+    background: white;
+    width: 250px;
+    margin: 25px auto;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.poster-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #3a6fb3;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .25s;
+}
+
+.btn:hover {
+    background: #2e5c93;
+}
